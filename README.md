@@ -1,73 +1,124 @@
-# Welcome to your Lovable project
+ Axiom Trade Token Discovery — Full Replica (Next.js + Real-Time Engine)
 
-## Project info
+This project is a pixel-perfect, real-time clone of Axiom Trade’s Token Discovery dashboard, built using:
 
-**URL**: https://lovable.dev/projects/7a47486c-9b1d-46f1-a27a-5a928e68d233
+Next.js 14
 
-## How can I edit this code?
+React
 
-There are several ways of editing your application.
+TailwindCSS
 
-**Use Lovable**
+TanStack Query (react-query)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7a47486c-9b1d-46f1-a27a-5a928e68d233) and start prompting.
+Live WebSocket-like mock engine
 
-Changes made via Lovable will be committed automatically to this repo.
+Dynamic sparkline graphs
 
-**Use your preferred IDE**
+Axiom-style bottom status bar
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Trending / Surge / Dex / Pump tabs
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Realtime updates every 4 seconds
 
-Follow these steps:
+This assignment implements a complete token discovery system with mock real-time data and UI replication.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+ Features
+ Axiom-Style Token Table
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Pair Info
 
-# Step 3: Install the necessary dependencies.
-npm i
+Dynamic Sparkline Graph
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Market Cap
 
-**Edit a file directly in GitHub**
+Liquidity
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Volume
 
-**Use GitHub Codespaces**
+Transaction Count
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Token Info Badges
 
-## What technologies are used for this project?
+Action Button (“Buy”)
 
-This project is built with:
+ Real-Time Engine (Every 4 Seconds)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Market cap updates
 
-## How can I deploy this project?
+Price updates
 
-Simply open [Lovable](https://lovable.dev/projects/7a47486c-9b1d-46f1-a27a-5a928e68d233) and click on Share -> Publish.
+Sparkline graph growth
 
-## Can I connect a custom domain to my Lovable project?
+Holder counts
 
-Yes, you can!
+PnL changes
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Bottom status bar values
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+ Category Tabs (Axiom Style)
+
+Trending
+
+Surge
+
+Dex
+
+Pump
+
+Dynamic switching between categories with live updates.
+
+ Dynamic Sparkline Graph
+
+Smooth curved line (Axiom-style)
+
+No sharp noisy edges
+
+Real-time animation
+
+Graph color:
+
+Green → positive trend
+
+Red → negative trend
+
+ Token Info Badges (Axiom UI)
+
+24h change
+
+1h change
+
+Buy tax
+
+Sell tax
+
+Holder count
+
+Top holder %
+
+Paid / Unpaid badge
+
+Bottom Status Bar
+
+Includes real-time values:
+
+Wallet
+
+Token value
+
+ETH
+
+PnL
+
+Social icons
+
+Discover
+
+Pulse
+
+Global region
+
+Connection status
+
+Updates every 4 seconds.
+
+
